@@ -9,16 +9,12 @@ public class Point {
         double second = Math.pow(y, 2);
         double a = first + second;
         return Math.sqrt(a);
-
     }
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         double result = Point.distance(0, 0, 2, 0);
         System.out.println("Result (0, 0) to (2, 0) " + result);
         double result1 = Point.distance(3, 5, 7, 9);
         System.out.println("Result (3, 5) to (7, 9) " + result1);
     }
-
-
-
 }
