@@ -49,8 +49,8 @@ public class PointTest {
     public void when000To022To064Then10() {
         Point a = new Point(0, 0, 0);
         Point b = new Point(0, 2, 2);
-        Point c = new Point(0, 6, 4);
-        int expected = 10;
+        Point c = new Point(2, 0, 0);
+        int expected = 2;
         double out = a.distance3d(c);
         Assert.assertEquals(expected, out, 0.01);
     }
